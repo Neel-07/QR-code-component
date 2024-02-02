@@ -22,8 +22,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Click here](https://neel-07.github.io/QR-code-component/)
 
 ## My process
    I began by structuring the HTML to create the QR code and its surrounding elements. This involved using semantic HTML to ensure accessibility and good structure. Then, I moved on to styling the component using CSS. I focused on making the QR code responsive and ensuring it looked visually appealing on different screen sizes.
