@@ -46,13 +46,14 @@ body{
     color:rgb(79, 75, 75);
     font-weight:700;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 7px;
     /* box-sizing: border-box; */
 }
 .text p{
     font-size: 15px;
     font-weight: 400;
     padding: 10px;
+    padding-bottom:18px;
     color: hsl(220, 15%, 55%);
 }
 
