@@ -7,6 +7,7 @@
 body{
     background-color: hsl(212, 45%, 89%);
     padding: 20px;
+    overflow-y:hidden;
 }
 .container{ 
     height:100vh;
@@ -14,7 +15,7 @@ body{
     display:flex;
     justify-content:center;
     align-items: center;
-
+    
 
 }
 
