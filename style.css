@@ -42,8 +42,9 @@ body{
 
 .text h2{
     font-size: 22px;
+    color:rgb(79, 75, 75);
     font-weight:700;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 10px;
     /* box-sizing: border-box; */
 }
