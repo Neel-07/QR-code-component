@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 
-.container{
+body{
     background-color: hsl(212, 45%, 89%);
+    padding: 20px;
+}
+.container{ 
     height:100vh;
-    width:100vw;
+    /* width:100vw; */
     display:flex;
     justify-content:center;
     align-items: center;
@@ -17,15 +20,17 @@
 
 .card{
     background-color: hsl(0, 0%, 100%);
-    height: 480px;
-    width: 310px;
+    width: 100%; 
+    max-width: 310px;
     border-radius: 15px;
     padding: 15px;
+    /* box-sizing: border-box; */
 }
 
 .card img{
-    height: 280px;
-    width: 280px;
+    /* height: 280px; */
+    /* width: 280px; */
+    max-width:100%;
     border-radius: 15px;
 }
 
@@ -38,11 +43,22 @@
 .text h2{
     font-size: 22px;
     font-weight:700;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* box-sizing: border-box; */
 }
 .text p{
     font-size: 15px;
     font-weight: 400;
     padding: 10px;
     color: hsl(220, 15%, 55%);
+}
+
+@media screen and (max-width: 219px) {
+    body {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+    .card {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
 }
